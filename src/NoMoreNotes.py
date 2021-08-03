@@ -22,13 +22,12 @@ def main_menu():
             record(filename_output)
 
     except KeyboardInterrupt:
-        f = open(filename_output+".html", "a")
-        f.write("</p></center>")
-        f.close()
+        file_ = open(filename_output+".html", "a")
+        file_.write("</p></center>")
+        file_.close()
 
         os.rename(filename_output+".html", "../output/"+filename_output+".html")
         os.remove("audio.wav")
-            
 
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
