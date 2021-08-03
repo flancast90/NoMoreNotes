@@ -37,7 +37,7 @@ pip install pyaudio
 pip install tqdm
 pip install datetime
 ```
-3. Once these libraries are downloaded, start Pythune as follows:
+3. Once these libraries are downloaded, start NoMoreNotes as follows:
 ```bash
 cd path/to/NoMoreNotes-main
 cd src
