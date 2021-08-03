@@ -32,7 +32,7 @@ As-stated, NoMoreNotes is reliant on several well-known and documented external 
 1. To get started with NoMoreNotes, first make sure Python is downloaded as per https://www.python.org/downloads/, and then download PIP [here](https://pip.pypa.io/en/stable/cli/pip_download/)
 2. Next, make sure that the necessary libraries are installed using Pip
 ```bash
-pip install speech_recognition
+pip install SpeechRecognition
 pip install pyaudio
 pip install tqdm
 pip install datetime
